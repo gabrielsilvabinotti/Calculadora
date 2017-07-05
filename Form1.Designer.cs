@@ -45,7 +45,7 @@
             this.bt_8 = new System.Windows.Forms.Button();
             this.bt_7 = new System.Windows.Forms.Button();
             this.bt_limpar = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.painel = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
             // bt_ponto
@@ -218,20 +218,20 @@
             this.bt_limpar.Text = "C";
             this.bt_limpar.UseVisualStyleBackColor = true;
             // 
-            // panel1
+            // painel
             // 
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Location = new System.Drawing.Point(12, 12);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(226, 64);
-            this.panel1.TabIndex = 20;
+            this.painel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.painel.Location = new System.Drawing.Point(12, 12);
+            this.painel.Name = "painel";
+            this.painel.Size = new System.Drawing.Size(226, 64);
+            this.painel.TabIndex = 20;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(249, 298);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.painel);
             this.Controls.Add(this.bt_limpar);
             this.Controls.Add(this.bt_dividir);
             this.Controls.Add(this.bt_9);
@@ -276,7 +276,7 @@
         private System.Windows.Forms.Button bt_8;
         private System.Windows.Forms.Button bt_7;
         private System.Windows.Forms.Button bt_limpar;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel painel;
     }
 }
 
